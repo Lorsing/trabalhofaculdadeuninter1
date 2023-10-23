@@ -1,0 +1,64 @@
+@charset "UTF-8";  /* Regra para que caractéres especiais, e acentuações da lingua portuguesa funcionem corretamente no site. */
+
+/* folha de estilo para todo o campo body em geral seguir, com gradiente de cor de fundo fixo, para não haver problemas caso haja muito conteúdo e tenha rolagem no site, e a fonte utilizada. */
+body {
+    background-image: linear-gradient(to bottom, white, gray);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Estilo utilizado nas classes dos botões das abas para acesso do site com espaçamento entre eles, margem, acolchoamento, cor de fundo e de bordas, além de arredondamento de bordas entre outras configurações. */
+.links {
+    display: inline-block;
+    height: auto;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(182, 182, 182);
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(87, 7, 7);
+}
+
+/* Estilo utilizado nos botões, input e textarea dos campos de contato. */
+textarea, input, button {
+    margin: auto;
+    border-color: black;
+}
+
+/* Estilo utilizado nos links ancorados diretamente. */
+a {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    margin: auto;
+}
+
+/* Estilo utilizado nos links de acesso dos portfólios e do curriculo que são visualizados em pdf. */
+.portfolio {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(165, 2, 2);
+}
+
+/* Estilo utilizado nos títulos de hierarquia H1 em geral */
+h1 {
+    text-align: center;
+    font: italic bold Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* Estilo utilizado nos títulos de hierarquia H2 em geral */
+h2 {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+
+/* Estilo utilizado nos parágrafos em geral. */
+p {
+    text-align: justify;
+    text-indent: 30px;
+    color: black;
+}

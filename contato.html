@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"> <!--Ícone Favicon-->
+    <title>Informações sobre portfólio pessoal</title>
+    <link rel="stylesheet" href="estilo.css"> <!--link para Folha de estilos-->
+</head>
+<body>
+    <h1>Contato</h1>
+    <hr>
+
+    <!--Abaixo seguem os botões das abas para acesso a outras áreas descritas abaixo-->
+    <div class="links"><a href="index.html" target="_self">Início</a></div>
+    <div class="links"><a href="descritivo.html" rel="next" target="_self">Descritivo inicial</a></div>
+    <div class="links"><a href="sobremim.html" rel="next" target="_self">Sobre mim</a></div>
+    <div class="links"><a href="formacao.html" rel="next" target="_self">Formação Acadêmica</a></div>
+    <div class="links"><a href="portfolio.html" rel="next" target="_self">Portfólio Pessoal</a></div>
+    <div class="links"><a href="contato.html" rel="next" target="_self">Contato</a></div>
+
+    <!--Abaixo segue o descritivo do contato e o formulário para escrita do usuário podendo adicionar o nome completo, um e-mail para contato e a mensagem que deseja escrever para entrar em contato com o dono do site, ou enviar uma mensagem.-->
+    <h2>Contato:</h2>
+
+    <form>
+
+            <div>
+                <!--Campo para Nome completo-->
+            <br><label><strong>Nome completo:</strong></label></br>
+                <input type="text" name="nome" id="nome">
+            
+            </div>
+
+            <div>
+                <!--Campo para e-mail-->
+                <br><label><strong>E-mail para contato:</strong></label></br>
+                <input type="contato" name="contato" id="contato">
+                <p>*Lembre-se de conferir o e-mail de contato para que não haja problemas na comunicação.</p>
+            
+            </div>
+
+            <div >
+                <!--Campo para escrever mensagens-->
+                <br><label><strong>Digite abaixo o objetivo do contato, ou assunto:</strong></label></br>
+                <br><textarea rows="12" style="width: 70em;" id="message" name="message"></textarea></br>
+                <p>*O tempo estimado para resposta das mensagens é de aproximadamente 48 horas.</p>
+                
+                <br><button class="send" type="submit"><strong>Enviar</strong></button></br>
+
+            </div>
+
+    </form>
+
+</body>
+</html>
